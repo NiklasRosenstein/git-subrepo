@@ -1,0 +1,11 @@
+name: "nr.git-subrepo"
+version: "1.0.0"
+author: "Niklas Rosenstein <rosensteinniklas@gmail.com>"
+license: "MIT"
+description: "Create working trees of other Git repositories and track them in your parent repository."
+url: "https://git.niklasrosenstein.com/NiklasRosenstein/git-subrepo"
+requirements:
+  - python ^2.7 | ^3.4
+entrypoints:
+  console_scripts:
+    - git-subrepo = nr.git_subrepo:main
